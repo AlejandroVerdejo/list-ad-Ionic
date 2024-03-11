@@ -1,0 +1,8 @@
+{
+  "name": "ListAD",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "77d29099"
+}
