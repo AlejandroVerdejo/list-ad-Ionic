@@ -2,6 +2,7 @@ import MessageListItem from '../components/MessageListItem';
 import { useState } from 'react';
 import { Message, getMessages } from '../data/messages';
 import {
+  IonButton,
   IonContent,
   IonHeader,
   IonList,
@@ -48,7 +49,6 @@ const Home: React.FC = () => {
             </IonTitle>
           </IonToolbar>
         </IonHeader>
-
         <IonList>
           {messages.map(m => <MessageListItem key={m.id} message={m} />)}
         </IonList>
